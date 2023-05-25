@@ -99,31 +99,31 @@ header a:hover{
     font-size: 1.75em;
 }
 
-#somos-repsol-one .container{
+#Quienes-somos .container{
     text-align: center;
     padding: 200px 12px;
 }
 
-#nuestros-productos{
+#nuestros-compromisos{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
 }
 
-#nuestros-productos .container{
+#nuestros-compromisos .container{
     padding: 150px 12px;
 }
 
-#nuestros-productos h2{
+#nuestros-compromisos h2{
     margin-top: 0;
     font-size: 3.2em;
 }
 
-#nuestros-productos p{
+#nuestros-compromisos p{
     display: none;
 }
 
-#nuestros-productos .carta{
+#nuestros-compromisos .carta{
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -160,12 +160,12 @@ header a:hover{
 
 }
 
-#valores .container{
+#Valores .container{
     text-align: center;
     padding: 250px 12px;
 }
 
-#valores li{
+#Valores li{
     margin: 16px 0px;
     font-weight: bold;
 }
@@ -240,7 +240,7 @@ header a:hover{
     margin:0% 1%;
     }
 
-@media (min-width: 850px){
+@media (min-width: 768px){
     header{
         position: fixed;
         width: 100%;
@@ -261,12 +261,12 @@ header a:hover{
         font-size: 5em;
     }
 
-    #somos-repsol-one .container{
+    #Quienes-somos .container{
         display: flex;
         justify-content: space-evenly;
     }
 
-    #somos-repsol-one .texto{
+    #Quienes-somos .texto{
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -276,11 +276,11 @@ header a:hover{
         justify-content: center;
     }
 
-    #somos-repsol-one h2{
+    #Quienes-somos h2{
         margin-top: 0px;
     }
 
-    #somos-repsol-one .img-container{
+    #Quienes-somos .img-container{
         background-image: url("img/Isotipo.png");
         background-size: cover;
         background-position: center center;
@@ -288,25 +288,25 @@ header a:hover{
         width: 500px; 
     }
 
-    #nuestros-productos .productos{
+    #nuestros-compromisos .compromisos{
         display: flex;
         justify-content: center;
     }
 
-    #nuestros-productos p{
+    #nuestros-compromisos p{
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestros-productos h2{
+    #nuestros-compromisos h2{
         font-size: 4em;
     }
 
-    #nuestros-productos h3{
+    #nuestros-compromisos h3{
         margin-top: 0;
     }
 
-    #nuestros-productos .carta{
+    #nuestros-compromisos .carta{
         padding: 50px;
         background-size: 100% 150px;
         background-repeat: no-repeat;
@@ -344,18 +344,18 @@ header a:hover{
 
     }
 
-    #valores{
+    #Valores{
         background-image: url("img/valores.jpg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
     }
 
-    #valores .container{
+    #Valores .container{
         text-align: initial;
     }
 
-    #valores ul{
+    #Valores ul{
         margin-left: 100px;
     }
 
@@ -383,7 +383,7 @@ header a:hover{
     }
 
 @media (min-width: 1200px) {
-    #valores{
+    #Valores{
         background-position-x: calc(100vw - 800px);
         }
     }
